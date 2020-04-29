@@ -7,7 +7,7 @@
  */
 Module.register("ip_display",{
 	defaults: {
-		// default configuration goes here
+		// TODO: default configuration goes here
 	},
 	start: function() {
 		this.ip = undefined;
