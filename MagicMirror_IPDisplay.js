@@ -5,7 +5,7 @@
  * By Valeri Kozarev
  * MIT Licensed.
  */
-Module.register("ip_display",{
+Module.register("MagicMirror_IPDisplay",{
 	defaults: {
 		// default configuration goes here
 	},
@@ -32,7 +32,7 @@ Module.register("ip_display",{
 		case "IP RESPONSE":
 			// update the HTML to show the IP address sent by the node_helper
 			var ipElement = document.getElementById("IP_address");
-			ipElement.innerHTML = "Hello, " + payload + "!";
+			ipElement.innerHTML = "IP Address: " + payload;
 			break;
 		}
 	}
