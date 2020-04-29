@@ -1,5 +1,5 @@
 # MagicMirror_IPDisplay
-Module for MagicMirror that displays the machine's IP address for easier remote access.
+I found it annoying to have to open up the cabinet where my mirror lives in order to figure out the Raspberry Pi's IP address if I ever needed. There's other ways to do it, sure, but this one was fun to implement!
 
 ## What it looks like: ##
 <img src="images/output.PNG">  
@@ -10,5 +10,4 @@ Module for MagicMirror that displays the machine's IP address for easier remote 
 2. Copy the MagicMirror_IPDisplay folder into MagicMirror/modules.
 3. Add the module to the config file, like so:
 <img src="images/config%20file.PNG">
-  
-  
+ 
